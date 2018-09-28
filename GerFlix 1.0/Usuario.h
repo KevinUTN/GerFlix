@@ -12,3 +12,4 @@ void inicializarUsuariosEstado(eUsuario[], int);
 void inicializarUsuariosHardCode(eUsuario[]);
 void mostrarListaUsuarios(eUsuario[], int);
 void mostrarUsuarioConSuSerie(eUsuario[], int, eSerie[], int);
+void mostrarSerieConSuUsuario(eSerie[], int, eUsuario[], int);
