@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1538137331 source:d:\lol\gerflix 1.0\main.c
+1538139063 source:d:\lol\gerflix 1.0\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Usuario.h"
@@ -9,10 +9,10 @@
 
 1538137331 d:\lol\gerflix 1.0\serie.h
 
-1538137766 source:d:\lol\gerflix 1.0\serie.c
+1538138591 source:d:\lol\gerflix 1.0\serie.c
 	"Serie.h"
 	<string.h>
 
-1538137331 source:d:\lol\gerflix 1.0\usuario.c
+1538138868 source:d:\lol\gerflix 1.0\usuario.c
 	"Usuario.h"
 

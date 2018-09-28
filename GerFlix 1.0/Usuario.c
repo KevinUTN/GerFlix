@@ -31,13 +31,22 @@ void inicializarUsuariosHardCode(eUsuario usuarios[])
         strcpy(usuarios[i].nombre, nombre[i]);
 
     }
+    void mostrarListaUsuarios(eUsuario usuario[],int t)
+    {
+        int i;;
+        for(i=0; i<t; i++)
+        {
+            if (usuarios[i].estado==1)
+            {
+                printf("%d, %s, %s, %d",usuarios[i].idUsuario,usuarios[i].idSerie,usuarios[i].nombre);
+            }
+        }
+
+
+
+    }
 
 
 
 
-
-
-
-
-
-}
+    }
