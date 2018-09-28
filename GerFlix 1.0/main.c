@@ -18,21 +18,21 @@ int main()
 //  1. Mostrar el listado de series
 
         mostrarListaSeries(listaDeSeries,TAMSERIE);
-        printf("-----------------------\n");
+        printf("-----------------\n");
  //   2. Mostrar el listado de usuarios
 
         mostrarListaUsuarios(listaDeUsuarios,TAMUSUARIO);
-        printf("-----------------------\n");
+        printf("-----------------\n");
 
  //   3. Mostrar el listado de Usuarios con el nombre de la serie que ve
 
         mostrarUsuarioConSuSerie(listaDeUsuarios,TAMUSUARIO,listaDeSeries,TAMSERIE);
-        printf("-----------------------\n");
+        printf("----------------\n");
 
  //   4. Mostrar por cada serie, el nombre de los usuarios que la ven.
 
         mostrarSerieConSuUsuario(listaDeSeries,TAMSERIE,listaDeUsuarios,TAMUSUARIO);
-        printf("-----------------------\n");
+        printf("----------------\n");
 
 
     return 0;

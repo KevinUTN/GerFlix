@@ -1,14 +1,6 @@
 #include "Serie.h"
 #include <string.h>
 
-/*
-    int idSerie;
-    char nombre[50];
-    char genero[20];
-    int cantidadTemporadas;
-    int estado;
-*/
-
 void inicializarSeriesEstado(eSerie series[], int cant)
 {
     int i;
