@@ -1,4 +1,3 @@
-
 #include "Serie.h"
 
 typedef struct
@@ -12,4 +11,3 @@ typedef struct
 void inicializarUsuariosEstado(eUsuario[], int);
 void inicializarUsuariosHardCode(eUsuario[]);
 void mostrarListaUsuarios(eUsuario[], int);
-void mostrarUsuarioConSuSerie(eUsuario[], int, eSerie[], int);

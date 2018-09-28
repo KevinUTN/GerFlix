@@ -49,7 +49,7 @@ void mostrarListaSeries(eSerie series[], int cant)
     int i;
     printf("%5s %20s %5s %s\n","idSerie","Nombre","Genero","Cantidad de Temporadas");
 
-/**< Recorre y si el estado es distinto de 0 la muestra */
+
     for(i=0; i<cant; i++)
     {
         if(series[i].estado==1)

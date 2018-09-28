@@ -1,5 +1,8 @@
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "Usuario.h"
+
 
 void inicializarUsuariosEstado(eUsuario usuarios[], int cant)
 {
@@ -14,7 +17,7 @@ void inicializarUsuariosHardCode(eUsuario usuarios[])
 {
 
 
-    int id[15] = {1000,1001,1002,1003,1004, 1005,1006,1007,1008,1009, 1010,1011,1012,1013,1014};
+    int id[15] = {1000,1001,1002,1003,1004,1005,1006,1007,1008,1009, 1010,1011,1012,1013,1014};
     char nombre[][50]= {"Juan","Maria","Pedro","Vanesa","Jose","Luisa","Laura","Marcelo","German","Victoria","Dafne","Antonela","Gisele","Dario","Pedro"};
 
     int serie[15] = {100,100,101,101,102,100,100,103,101,102,103,101,100,100,101};
@@ -31,22 +34,27 @@ void inicializarUsuariosHardCode(eUsuario usuarios[])
         strcpy(usuarios[i].nombre, nombre[i]);
 
     }
-    void mostrarListaUsuarios(eUsuario usuario[],int t)
+}
+
+void mostrarListaUsuarios(eUsuario usuarios[], int TAMUSUARIO)
+{
+    int i;
+    for(i=0; i<TAMUSUARIO; i++)
     {
-        int i;;
-        for(i=0; i<t; i++)
+        if(usuarios[i].estado != 0)
         {
-            if (usuarios[i].estado==1)
-            {
-                printf("%d, %s, %s, %d",usuarios[i].idUsuario,usuarios[i].idSerie,usuarios[i].nombre);
-            }
+            printf("ID de usuario: %d | %s\n", usuarios[i].idUsuario, usuarios[i].nombre);
         }
-
-
-
     }
+    printf("\n");
+}
 
 
 
 
-    }
+
+
+
+
+
+
