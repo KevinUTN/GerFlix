@@ -48,6 +48,26 @@ void mostrarListaUsuarios(eUsuario usuarios[], int TAMUSUARIO)
     }
 
 }
+void mostrarUsuarioConSuSerie(eUsuario usuarios[], int tamU, eSerie series[], int tamS)
+{
+    int i;
+    int j;
+    for(i=0; i<tamU; i++)
+    {
+        for(j=0; j<tamS;j++)
+        {
+            if(usuarios[i].idSerie==series[j].idSerie)
+            {
+                if(usuarios[i].estado==1)
+                {
+                    printf("%d  %s  %d %s  %s  %d\n",usuarios[i].idUsuario, usuarios[i].nombre,usuarios[i].idSerie, series[j].nombre, series[j].genero,series[j].cantidadTemporadas);
+                    break;
+                }
+
+            }
+        }
+    }
+}
 
 
 

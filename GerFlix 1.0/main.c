@@ -18,12 +18,14 @@ int main()
     mostrarListaSeries(listaDeSeries,TAMSERIE);
 
 
-
     //2. Mostrar el listado de usuarios
     mostrarListaUsuarios(listaDeUsuarios,TAMUSUARIO);
 
-
   //  3. Mostrar el listado de Usuarios con el nombre de la serie que ve
+    mostrarUsuarioConSuSerie(listaDeUsuarios,TAMUSUARIO,listaDeSeries,TAMSERIE);
+
+
+
    // 4. Mostrar por cada serie, el nombre de los usuarios que la ven.
 
 

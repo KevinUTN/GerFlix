@@ -2,14 +2,6 @@
 #include "Serie.h"
 #include <string.h>
 
-/*
-    int idSerie;
-    char nombre[50];
-    char genero[20];
-    int cantidadTemporadas;
-    int estado;
-*/
-
 void inicializarSeriesEstado(eSerie series[], int cant)
 {
     int i;
@@ -19,7 +11,7 @@ void inicializarSeriesEstado(eSerie series[], int cant)
         series[i].estado = 0;
     }
 
-    /**< para poder hacer ABM en ese array */
+
 }
 
 
@@ -47,7 +39,7 @@ void inicializarSeriesHardCode(eSerie series[])
 void mostrarListaSeries(eSerie series[], int cant)
 {
     int i;
-    printf("%5s %20s %5s %s\n","idSerie","Nombre","Genero","Cantidad de Temporadas");
+
 
 
     for(i=0; i<cant; i++)
@@ -58,4 +50,6 @@ void mostrarListaSeries(eSerie series[], int cant)
         }
     }
 }
+
+
 
