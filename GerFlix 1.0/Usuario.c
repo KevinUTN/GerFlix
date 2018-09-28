@@ -43,10 +43,10 @@ void mostrarListaUsuarios(eUsuario usuarios[], int TAMUSUARIO)
     {
         if(usuarios[i].estado != 0)
         {
-            printf("ID de usuario: %d | %s\n", usuarios[i].idUsuario, usuarios[i].nombre);
+            printf(" %d | %s\n", usuarios[i].idUsuario, usuarios[i].nombre);
         }
     }
-    printf("\n");
+
 }
 
 
